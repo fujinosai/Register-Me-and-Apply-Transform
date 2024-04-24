@@ -1,0 +1,1 @@
+antsApplyTransforms -d 3 -i ${ATLASDIR}/ROIinMNI.nii.gz -o ${DWIOUTDIR}/masks/ROI.nii.gz -r ${DWIOUTDIR}/reg/dwi_b0.nii.gz -n GenericLabel -t [${DWIOUTDIR}/reg/dwi2t1.mat, 1] -t [${T1OUTDIR}/reg/t12mni0GenericAffine.mat, 1] -t ${T1OUTDIR}/reg/t12mni_1InverseWarp.nii.gz 
