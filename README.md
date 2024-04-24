@@ -1,3 +1,3 @@
-# Registrate-Me-and-Apply-Transform
+# Register-Me-and-Apply-Transform
 
 Example code 
